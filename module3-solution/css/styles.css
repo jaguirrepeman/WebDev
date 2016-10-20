@@ -1,5 +1,6 @@
 *{
   font-family: Helvetica;
+  box-sizing: border-box;
 }
   body {
   font-size: 16px;
@@ -58,7 +59,8 @@
   font-weight: bold;
   font-size: 1.25em;
   color: black;   
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .dish-container{
     /*
@@ -68,6 +70,12 @@
     */
     background-color: #AFAFAF;
     margin-bottom: 40px;
+
+}
+.dish-container > p {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-bottom: 15px;
 
 }
 .row-container{
